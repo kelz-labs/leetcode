@@ -3,7 +3,7 @@
  * @param {Function} fn
  * @return {number[]}
  */
-function filter(arr, fn) {
+function solution(arr, fn) {
   let newArr = [];
 
   for (let i = 0; i < arr.length; i++) {

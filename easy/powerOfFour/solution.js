@@ -1,8 +1,9 @@
+JavaScript;
 /**
  * @param {number} n
  * @return {boolean}
  */
-var isPowerOfFour = function (n) {
+function solution(n) {
   if (n < 4 && n !== 1) return false;
   let value = true;
 
@@ -16,4 +17,4 @@ var isPowerOfFour = function (n) {
   }
 
   return value;
-};
+}

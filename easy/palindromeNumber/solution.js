@@ -2,7 +2,7 @@
  * @param {number} x
  * @return {boolean}
  */
-var isPalindrome = function (x) {
+function solution(x) {
   const xToStr = x.toString();
   let result = [];
 
@@ -11,4 +11,4 @@ var isPalindrome = function (x) {
   }
 
   return result.join("") === xToStr;
-};
+}

@@ -3,7 +3,7 @@
  * @param {number} target
  * @return {number}
  */
-function searchInsert(nums, target) {
+function solution(nums, target) {
   const findIndex = nums.findIndex((item) => item === target);
 
   if (findIndex !== -1) return findIndex;

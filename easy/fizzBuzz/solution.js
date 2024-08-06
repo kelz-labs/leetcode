@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {string[]}
  */
-var fizzBuzz = function (n) {
+function solution(n) {
   let arr = [];
 
   for (let i = 1; i <= n; i++) {
@@ -18,4 +18,4 @@ var fizzBuzz = function (n) {
   }
 
   return arr;
-};
+}
